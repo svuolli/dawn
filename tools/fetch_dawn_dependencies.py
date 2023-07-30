@@ -89,6 +89,7 @@ def main(args):
         'third_party/vulkan-deps/vulkan-headers/src',
         'third_party/vulkan-deps/vulkan-loader/src',
         'third_party/vulkan-deps/vulkan-tools/src',
+        'third_party/vulkan-deps/glslang/src',
         'third_party/glfw',
         'third_party/abseil-cpp',
         'third_party/jinja2',
