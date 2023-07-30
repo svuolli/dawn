@@ -14,6 +14,10 @@
 
 #include "dawn/common/Mutex.h"
 
+#if !defined(DAWN_ENABLE_ASSERTS)
+#include <cstdlib>
+#endif
+
 namespace dawn {
 Mutex::~Mutex() = default;
 
